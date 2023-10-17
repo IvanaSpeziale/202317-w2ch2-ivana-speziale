@@ -3,9 +3,22 @@
   "version": "1.0.0",
   "description": "Segundo challenge de la segunda semana de bootcamp",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.0.0"
+  }
 }
